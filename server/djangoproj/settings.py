@@ -27,8 +27,8 @@ SECRET_KEY =\
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-host_url1 = 'https://khanmdminhaj-8000.theiadockernext-1'
-host_url2 = '-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
+host_url1 = 'https://khanmdminhaj-8000.theianext-0'
+host_url2 = '-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai'
 host_url = host_url1 + host_url2
 ALLOWED_HOSTS = ['localhost', host_url]
 CSRF_TRUSTED_ORIGINS = [host_url]
@@ -96,8 +96,7 @@ DATABASES = {
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME':
-        'django.contrib.auth.password_validation\
-        .UserAttributeSimilarityValidator',
+        'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
         'NAME':
